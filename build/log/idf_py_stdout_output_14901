@@ -1,0 +1,97 @@
+[0/1] Re-running CMake...
+-- Building ESP-IDF components for target esp32s3
+-- Project sdkconfig file /Users/dheerajmahendiran/esp/scanchain/sdkconfig
+-- Compiler supported targets: xtensa-esp32s3-elf
+-- App "scanchain" version: 4812529-dirty
+-- Adding linker script /Users/dheerajmahendiran/esp/scanchain/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/ld/esp32s3/sections.ld.in
+-- Adding linker script /Users/dheerajmahendiran/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.ld
+-- Adding linker script /Users/dheerajmahendiran/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.api.ld
+-- Adding linker script /Users/dheerajmahendiran/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.libgcc.ld
+-- Adding linker script /Users/dheerajmahendiran/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.newlib.ld
+-- Adding linker script /Users/dheerajmahendiran/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.version.ld
+-- Adding linker script /Users/dheerajmahendiran/esp/esp-idf/components/soc/esp32s3/ld/esp32s3.peripherals.ld
+-- Components: app_trace app_update bootloader bootloader_support bt cmock console cppspi cxx driver efuse esp-tls esp_adc esp_app_format esp_bootloader_format esp_coex esp_common esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_mm esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_system esp_timer esp_wifi espcoredump esptool_py fatfs freertos hal heap http_parser idf_test ieee802154 json log lwip main mbedtls mqtt newlib nvs_flash nvs_sec_provider openthread partition_table perfmon protobuf-c protocomm pthread scanchain_spi sdmmc soc spi_flash spiffs tcp_transport touch_element ulp unity usb vfs wear_levelling wifi_provisioning wpa_supplicant xtensa
+-- Component paths: /Users/dheerajmahendiran/esp/esp-idf/components/app_trace /Users/dheerajmahendiran/esp/esp-idf/components/app_update /Users/dheerajmahendiran/esp/esp-idf/components/bootloader /Users/dheerajmahendiran/esp/esp-idf/components/bootloader_support /Users/dheerajmahendiran/esp/esp-idf/components/bt /Users/dheerajmahendiran/esp/esp-idf/components/cmock /Users/dheerajmahendiran/esp/esp-idf/components/console /Users/dheerajmahendiran/esp/scanchain/components/cppspi /Users/dheerajmahendiran/esp/esp-idf/components/cxx /Users/dheerajmahendiran/esp/esp-idf/components/driver /Users/dheerajmahendiran/esp/esp-idf/components/efuse /Users/dheerajmahendiran/esp/esp-idf/components/esp-tls /Users/dheerajmahendiran/esp/esp-idf/components/esp_adc /Users/dheerajmahendiran/esp/esp-idf/components/esp_app_format /Users/dheerajmahendiran/esp/esp-idf/components/esp_bootloader_format /Users/dheerajmahendiran/esp/esp-idf/components/esp_coex /Users/dheerajmahendiran/esp/esp-idf/components/esp_common /Users/dheerajmahendiran/esp/esp-idf/components/esp_eth /Users/dheerajmahendiran/esp/esp-idf/components/esp_event /Users/dheerajmahendiran/esp/esp-idf/components/esp_gdbstub /Users/dheerajmahendiran/esp/esp-idf/components/esp_hid /Users/dheerajmahendiran/esp/esp-idf/components/esp_http_client /Users/dheerajmahendiran/esp/esp-idf/components/esp_http_server /Users/dheerajmahendiran/esp/esp-idf/components/esp_https_ota /Users/dheerajmahendiran/esp/esp-idf/components/esp_https_server /Users/dheerajmahendiran/esp/esp-idf/components/esp_hw_support /Users/dheerajmahendiran/esp/esp-idf/components/esp_lcd /Users/dheerajmahendiran/esp/esp-idf/components/esp_local_ctrl /Users/dheerajmahendiran/esp/esp-idf/components/esp_mm /Users/dheerajmahendiran/esp/esp-idf/components/esp_netif /Users/dheerajmahendiran/esp/esp-idf/components/esp_netif_stack /Users/dheerajmahendiran/esp/esp-idf/components/esp_partition /Users/dheerajmahendiran/esp/esp-idf/components/esp_phy /Users/dheerajmahendiran/esp/esp-idf/components/esp_pm /Users/dheerajmahendiran/esp/esp-idf/components/esp_psram /Users/dheerajmahendiran/esp/esp-idf/components/esp_ringbuf /Users/dheerajmahendiran/esp/esp-idf/components/esp_rom /Users/dheerajmahendiran/esp/esp-idf/components/esp_system /Users/dheerajmahendiran/esp/esp-idf/components/esp_timer /Users/dheerajmahendiran/esp/esp-idf/components/esp_wifi /Users/dheerajmahendiran/esp/esp-idf/components/espcoredump /Users/dheerajmahendiran/esp/esp-idf/components/esptool_py /Users/dheerajmahendiran/esp/esp-idf/components/fatfs /Users/dheerajmahendiran/esp/esp-idf/components/freertos /Users/dheerajmahendiran/esp/esp-idf/components/hal /Users/dheerajmahendiran/esp/esp-idf/components/heap /Users/dheerajmahendiran/esp/esp-idf/components/http_parser /Users/dheerajmahendiran/esp/esp-idf/components/idf_test /Users/dheerajmahendiran/esp/esp-idf/components/ieee802154 /Users/dheerajmahendiran/esp/esp-idf/components/json /Users/dheerajmahendiran/esp/esp-idf/components/log /Users/dheerajmahendiran/esp/esp-idf/components/lwip /Users/dheerajmahendiran/esp/scanchain/main /Users/dheerajmahendiran/esp/esp-idf/components/mbedtls /Users/dheerajmahendiran/esp/esp-idf/components/mqtt /Users/dheerajmahendiran/esp/esp-idf/components/newlib /Users/dheerajmahendiran/esp/esp-idf/components/nvs_flash /Users/dheerajmahendiran/esp/esp-idf/components/nvs_sec_provider /Users/dheerajmahendiran/esp/esp-idf/components/openthread /Users/dheerajmahendiran/esp/esp-idf/components/partition_table /Users/dheerajmahendiran/esp/esp-idf/components/perfmon /Users/dheerajmahendiran/esp/esp-idf/components/protobuf-c /Users/dheerajmahendiran/esp/esp-idf/components/protocomm /Users/dheerajmahendiran/esp/esp-idf/components/pthread /Users/dheerajmahendiran/esp/scanchain/components/scanchain_spi /Users/dheerajmahendiran/esp/esp-idf/components/sdmmc /Users/dheerajmahendiran/esp/esp-idf/components/soc /Users/dheerajmahendiran/esp/esp-idf/components/spi_flash /Users/dheerajmahendiran/esp/esp-idf/components/spiffs /Users/dheerajmahendiran/esp/esp-idf/components/tcp_transport /Users/dheerajmahendiran/esp/esp-idf/components/touch_element /Users/dheerajmahendiran/esp/esp-idf/components/ulp /Users/dheerajmahendiran/esp/esp-idf/components/unity /Users/dheerajmahendiran/esp/esp-idf/components/usb /Users/dheerajmahendiran/esp/esp-idf/components/vfs /Users/dheerajmahendiran/esp/esp-idf/components/wear_levelling /Users/dheerajmahendiran/esp/esp-idf/components/wifi_provisioning /Users/dheerajmahendiran/esp/esp-idf/components/wpa_supplicant /Users/dheerajmahendiran/esp/esp-idf/components/xtensa
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/dheerajmahendiran/esp/scanchain/build
+[1/10] Building CXX object esp-idf/main/CMakeFiles/__idf_main.dir/main.cpp.obj
+[2/10] Linking C static library esp-idf/main/libmain.a
+[3/10] Performing build step for 'bootloader'
+[0/1] Re-running CMake...
+-- Building ESP-IDF components for target esp32s3
+-- Project sdkconfig file /Users/dheerajmahendiran/esp/scanchain/sdkconfig
+-- Compiler supported targets: xtensa-esp32s3-elf
+-- Adding linker script /Users/dheerajmahendiran/esp/esp-idf/components/soc/esp32s3/ld/esp32s3.peripherals.ld
+-- Bootloader project name: "bootloader" version: 1
+-- Adding linker script /Users/dheerajmahendiran/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.ld
+-- Adding linker script /Users/dheerajmahendiran/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.api.ld
+-- Adding linker script /Users/dheerajmahendiran/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.libgcc.ld
+-- Adding linker script /Users/dheerajmahendiran/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.newlib.ld
+-- Adding linker script /Users/dheerajmahendiran/esp/esp-idf/components/bootloader/subproject/main/ld/esp32s3/bootloader.ld
+-- Adding linker script /Users/dheerajmahendiran/esp/esp-idf/components/bootloader/subproject/main/ld/esp32s3/bootloader.rom.ld
+-- Components: bootloader bootloader_support efuse esp_app_format esp_bootloader_format esp_common esp_hw_support esp_rom esp_system esptool_py freertos hal log main micro-ecc newlib partition_table soc spi_flash xtensa
+-- Component paths: /Users/dheerajmahendiran/esp/esp-idf/components/bootloader /Users/dheerajmahendiran/esp/esp-idf/components/bootloader_support /Users/dheerajmahendiran/esp/esp-idf/components/efuse /Users/dheerajmahendiran/esp/esp-idf/components/esp_app_format /Users/dheerajmahendiran/esp/esp-idf/components/esp_bootloader_format /Users/dheerajmahendiran/esp/esp-idf/components/esp_common /Users/dheerajmahendiran/esp/esp-idf/components/esp_hw_support /Users/dheerajmahendiran/esp/esp-idf/components/esp_rom /Users/dheerajmahendiran/esp/esp-idf/components/esp_system /Users/dheerajmahendiran/esp/esp-idf/components/esptool_py /Users/dheerajmahendiran/esp/esp-idf/components/freertos /Users/dheerajmahendiran/esp/esp-idf/components/hal /Users/dheerajmahendiran/esp/esp-idf/components/log /Users/dheerajmahendiran/esp/esp-idf/components/bootloader/subproject/main /Users/dheerajmahendiran/esp/esp-idf/components/bootloader/subproject/components/micro-ecc /Users/dheerajmahendiran/esp/esp-idf/components/newlib /Users/dheerajmahendiran/esp/esp-idf/components/partition_table /Users/dheerajmahendiran/esp/esp-idf/components/soc /Users/dheerajmahendiran/esp/esp-idf/components/spi_flash /Users/dheerajmahendiran/esp/esp-idf/components/xtensa
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/dheerajmahendiran/esp/scanchain/build/bootloader
+[1/1] cd /Users/dheerajmahendiran/esp/scanchain/build/bootloader/esp-idf/esptool_py && /Users/dheerajmahendiran/.espressif/python_env/idf5.2_py3.9_env/bin/python /Users/dheerajmahendiran/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x0 /Users/dheerajmahendiran/esp/scanchain/build/bootloader/bootloader.bin
+Bootloader binary size 0x5330 bytes. 0x2cd0 bytes (35%) free.
+[4/8] Generating ld/sections.ld
+[5/8] Linking CXX executable scanchain.elf
+[6/8] Generating binary image from built executable
+esptool.py v4.7.dev1
+Creating esp32s3 image...
+Merged 2 ELF sections
+Successfully created esp32s3 image.
+Generated /Users/dheerajmahendiran/esp/scanchain/build/scanchain.bin
+[7/8] cd /Users/dheerajmahendiran/esp/scanchain/build/esp-idf/esptool_py && /Users/dheerajmahendiran/.espressif/python_env/idf5.2_py3.9_env/bin/python /Users/dheerajmahendiran/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /Users/dheerajmahendiran/esp/scanchain/build/partition_table/partition-table.bin /Users/dheerajmahendiran/esp/scanchain/build/scanchain.bin
+scanchain.bin binary size 0x7cc10 bytes. Smallest app partition is 0x100000 bytes. 0x833f0 bytes (51%) free.
+[7/8] cd /Users/dheerajmahendiran/esp/esp-idf/components/esptool_py && /Users/dheerajmahendiran/.espressif/tools/cmake/3.24.0/CMake.app/Contents/bin/cmake -D IDF_PATH=/Users/dheerajmahendiran/esp/esp-idf -D "SERIAL_TOOL=/Users/dheerajmahendiran/.espressif/python_env/idf5.2_py3.9_env/bin/python;;/Users/dheerajmahendiran/esp/esp-idf/components/esptool_py/esptool/esptool.py;--chip;esp32s3" -D "SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@flash_args" -D WORKING_DIRECTORY=/Users/dheerajmahendiran/esp/scanchain/build -P /Users/dheerajmahendiran/esp/esp-idf/components/esptool_py/run_serial_tool.cmake
+esptool.py --chip esp32s3 -p /dev/cu.usbserial-0001 -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 80m --flash_size 2MB 0x0 bootloader/bootloader.bin 0x10000 scanchain.bin 0x8000 partition_table/partition-table.bin
+esptool.py v4.7.dev1
+Serial port /dev/cu.usbserial-0001
+Connecting....
+Chip is ESP32-S3 (QFN56) (revision v0.1)
+Features: WiFi, BLE, Embedded Flash 8MB (GD)
+Crystal is 40MHz
+MAC: f4:12:fa:82:2b:70
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00000000 to 0x00005fff...
+Flash will be erased from 0x00010000 to 0x0008cfff...
+Flash will be erased from 0x00008000 to 0x00008fff...
+Compressed 21296 bytes to 13563...
+Writing at 0x00000000... (100 %)
+Wrote 21296 bytes (13563 compressed) at 0x00000000 in 0.7 seconds (effective 250.6 kbit/s)...
+Hash of data verified.
+Compressed 510992 bytes to 244741...
+Writing at 0x00010000... (6 %)
+Writing at 0x0001c120... (13 %)
+Writing at 0x0002fdf7... (20 %)
+Writing at 0x00035e05... (26 %)
+Writing at 0x0003c336... (33 %)
+Writing at 0x00042abb... (40 %)
+Writing at 0x0004c1c1... (46 %)
+Writing at 0x00053de0... (53 %)
+Writing at 0x0005c63c... (60 %)
+Writing at 0x000629cb... (66 %)
+Writing at 0x0006ae4f... (73 %)
+Writing at 0x00071249... (80 %)
+Writing at 0x0007a90b... (86 %)
+Writing at 0x00080eee... (93 %)
+Writing at 0x00086b5f... (100 %)
+Wrote 510992 bytes (244741 compressed) at 0x00010000 in 6.9 seconds (effective 589.9 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 103...
+Writing at 0x00008000... (100 %)
+Wrote 3072 bytes (103 compressed) at 0x00008000 in 0.1 seconds (effective 219.5 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...

@@ -1,0 +1,9 @@
+CMake Error at /Users/dheerajmahendiran/esp/esp-idf/tools/cmake/project.cmake:350 (message):
+  Directory specified in EXTRA_COMPONENT_DIRS doesn't exist:
+  /Users/dheerajmahendiran/esp/scanchain/src
+Call Stack (most recent call first):
+  /Users/dheerajmahendiran/esp/esp-idf/tools/cmake/project.cmake:434 (__project_init)
+  CMakeLists.txt:10 (project)
+
+
+ninja: error: rebuilding 'build.ninja': subcommand failed

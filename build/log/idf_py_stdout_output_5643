@@ -1,0 +1,5 @@
+[0/1] Re-running CMake...
+-- Configuring incomplete, errors occurred!
+See also "/Users/dheerajmahendiran/esp/scanchain/build/CMakeFiles/CMakeOutput.log".
+FAILED: build.ninja 
+/Users/dheerajmahendiran/.espressif/tools/cmake/3.24.0/CMake.app/Contents/bin/cmake --regenerate-during-build -S/Users/dheerajmahendiran/esp/scanchain -B/Users/dheerajmahendiran/esp/scanchain/build

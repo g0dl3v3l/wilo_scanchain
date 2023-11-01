@@ -1,0 +1,1641 @@
+[0;33m--- idf_monitor on /dev/cu.usbserial-0001 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40375294: call_start_cpu1 at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x40375976: panic_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5e5: esp_system_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40380e41: __assert_func at /Users/dheerajmahendiran/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x4200910a: CPPSPI::Spi::sendNBitData(int*, unsigned char) at /Users/dheerajmahendiran/esp/scanchain/components/cppspi/src/cppspi/cppspi.cpp:193 (discriminator 1)
+[0m
+[0;33m0x42008f1a: app_main at /Users/dheerajmahendiran/esp/scanchain/main/main.cpp:40 (discriminator 2)
+[0m
+[0;33m0x4204b8ff: main_task at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cd21: vPortTaskWrapper at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375888: esp_restart_noos at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375294: call_start_cpu1 at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x40375976: panic_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5e5: esp_system_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40380e41: __assert_func at /Users/dheerajmahendiran/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x4200910a: CPPSPI::Spi::sendNBitData(int*, unsigned char) at /Users/dheerajmahendiran/esp/scanchain/components/cppspi/src/cppspi/cppspi.cpp:193 (discriminator 1)
+[0m
+[0;33m0x42008f1a: app_main at /Users/dheerajmahendiran/esp/scanchain/main/main.cpp:40 (discriminator 2)
+[0m
+[0;33m0x4204b8ff: main_task at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cd21: vPortTaskWrapper at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375888: esp_restart_noos at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375294: call_start_cpu1 at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x40375976: panic_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5e5: esp_system_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40380e41: __assert_func at /Users/dheerajmahendiran/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x4200910a: CPPSPI::Spi::sendNBitData(int*, unsigned char) at /Users/dheerajmahendiran/esp/scanchain/components/cppspi/src/cppspi/cppspi.cpp:193 (discriminator 1)
+[0m
+[0;33m0x42008f1a: app_main at /Users/dheerajmahendiran/esp/scanchain/main/main.cpp:40 (discriminator 2)
+[0m
+[0;33m0x4204b8ff: main_task at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cd21: vPortTaskWrapper at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375888: esp_restart_noos at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375294: call_start_cpu1 at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x40375976: panic_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5e5: esp_system_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40380e41: __assert_func at /Users/dheerajmahendiran/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x4200910a: CPPSPI::Spi::sendNBitData(int*, unsigned char) at /Users/dheerajmahendiran/esp/scanchain/components/cppspi/src/cppspi/cppspi.cpp:193 (discriminator 1)
+[0m
+[0;33m0x42008f1a: app_main at /Users/dheerajmahendiran/esp/scanchain/main/main.cpp:40 (discriminator 2)
+[0m
+[0;33m0x4204b8ff: main_task at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cd21: vPortTaskWrapper at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375888: esp_restart_noos at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375294: call_start_cpu1 at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x40375976: panic_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5e5: esp_system_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40380e41: __assert_func at /Users/dheerajmahendiran/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x4200910a: CPPSPI::Spi::sendNBitData(int*, unsigned char) at /Users/dheerajmahendiran/esp/scanchain/components/cppspi/src/cppspi/cppspi.cpp:193 (discriminator 1)
+[0m
+[0;33m0x42008f1a: app_main at /Users/dheerajmahendiran/esp/scanchain/main/main.cpp:40 (discriminator 2)
+[0m
+[0;33m0x4204b8ff: main_task at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cd21: vPortTaskWrapper at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375888: esp_restart_noos at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375294: call_start_cpu1 at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x40375976: panic_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5e5: esp_system_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40380e41: __assert_func at /Users/dheerajmahendiran/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x4200910a: CPPSPI::Spi::sendNBitData(int*, unsigned char) at /Users/dheerajmahendiran/esp/scanchain/components/cppspi/src/cppspi/cppspi.cpp:193 (discriminator 1)
+[0m
+[0;33m0x42008f1a: app_main at /Users/dheerajmahendiran/esp/scanchain/main/main.cpp:40 (discriminator 2)
+[0m
+[0;33m0x4204b8ff: main_task at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cd21: vPortTaskWrapper at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375888: esp_restart_noos at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375294: call_start_cpu1 at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x40375976: panic_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5e5: esp_system_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40380e41: __assert_func at /Users/dheerajmahendiran/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x4200910a: CPPSPI::Spi::sendNBitData(int*, unsigned char) at /Users/dheerajmahendiran/esp/scanchain/components/cppspi/src/cppspi/cppspi.cpp:193 (discriminator 1)
+[0m
+[0;33m0x42008f1a: app_main at /Users/dheerajmahendiran/esp/scanchain/main/main.cpp:40 (discriminator 2)
+[0m
+[0;33m0x4204b8ff: main_task at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cd21: vPortTaskWrapper at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375888: esp_restart_noos at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375294: call_start_cpu1 at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x40375976: panic_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5e5: esp_system_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40380e41: __assert_func at /Users/dheerajmahendiran/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x4200910a: CPPSPI::Spi::sendNBitData(int*, unsigned char) at /Users/dheerajmahendiran/esp/scanchain/components/cppspi/src/cppspi/cppspi.cpp:193 (discriminator 1)
+[0m
+[0;33m0x42008f1a: app_main at /Users/dheerajmahendiran/esp/scanchain/main/main.cpp:40 (discriminator 2)
+[0m
+[0;33m0x4204b8ff: main_task at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cd21: vPortTaskWrapper at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375888: esp_restart_noos at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375294: call_start_cpu1 at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x40375976: panic_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5e5: esp_system_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40380e41: __assert_func at /Users/dheerajmahendiran/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x4200910a: CPPSPI::Spi::sendNBitData(int*, unsigned char) at /Users/dheerajmahendiran/esp/scanchain/components/cppspi/src/cppspi/cppspi.cpp:193 (discriminator 1)
+[0m
+[0;33m0x42008f1a: app_main at /Users/dheerajmahendiran/esp/scanchain/main/main.cpp:40 (discriminator 2)
+[0m
+[0;33m0x4204b8ff: main_task at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cd21: vPortTaskWrapper at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375888: esp_restart_noos at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375294: call_start_cpu1 at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x40375976: panic_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5e5: esp_system_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40380e41: __assert_func at /Users/dheerajmahendiran/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x4200910a: CPPSPI::Spi::sendNBitData(int*, unsigned char) at /Users/dheerajmahendiran/esp/scanchain/components/cppspi/src/cppspi/cppspi.cpp:193 (discriminator 1)
+[0m
+[0;33m0x42008f1a: app_main at /Users/dheerajmahendiran/esp/scanchain/main/main.cpp:40 (discriminator 2)
+[0m
+[0;33m0x4204b8ff: main_task at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cd21: vPortTaskWrapper at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375888: esp_restart_noos at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375294: call_start_cpu1 at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x40375976: panic_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5e5: esp_system_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40380e41: __assert_func at /Users/dheerajmahendiran/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x4200910a: CPPSPI::Spi::sendNBitData(int*, unsigned char) at /Users/dheerajmahendiran/esp/scanchain/components/cppspi/src/cppspi/cppspi.cpp:193 (discriminator 1)
+[0m
+[0;33m0x42008f1a: app_main at /Users/dheerajmahendiran/esp/scanchain/main/main.cpp:40 (discriminator 2)
+[0m
+[0;33m0x4204b8ff: main_task at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cd21: vPortTaskWrapper at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375888: esp_restart_noos at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375294: call_start_cpu1 at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x40375976: panic_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5e5: esp_system_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40380e41: __assert_func at /Users/dheerajmahendiran/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x4200910a: CPPSPI::Spi::sendNBitData(int*, unsigned char) at /Users/dheerajmahendiran/esp/scanchain/components/cppspi/src/cppspi/cppspi.cpp:193 (discriminator 1)
+[0m
+[0;33m0x42008f1a: app_main at /Users/dheerajmahendiran/esp/scanchain/main/main.cpp:40 (discriminator 2)
+[0m
+[0;33m0x4204b8ff: main_task at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cd21: vPortTaskWrapper at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375888: esp_restart_noos at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375294: call_start_cpu1 at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x40375976: panic_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5e5: esp_system_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40380e41: __assert_func at /Users/dheerajmahendiran/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x4200910a: CPPSPI::Spi::sendNBitData(int*, unsigned char) at /Users/dheerajmahendiran/esp/scanchain/components/cppspi/src/cppspi/cppspi.cpp:193 (discriminator 1)
+[0m
+[0;33m0x42008f1a: app_main at /Users/dheerajmahendiran/esp/scanchain/main/main.cpp:40 (discriminator 2)
+[0m
+[0;33m0x4204b8ff: main_task at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cd21: vPortTaskWrapper at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375888: esp_restart_noos at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375294: call_start_cpu1 at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x40375976: panic_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5e5: esp_system_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40380e41: __assert_func at /Users/dheerajmahendiran/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x4200910a: CPPSPI::Spi::sendNBitData(int*, unsigned char) at /Users/dheerajmahendiran/esp/scanchain/components/cppspi/src/cppspi/cppspi.cpp:193 (discriminator 1)
+[0m
+[0;33m0x42008f1a: app_main at /Users/dheerajmahendiran/esp/scanchain/main/main.cpp:40 (discriminator 2)
+[0m
+[0;33m0x4204b8ff: main_task at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cd21: vPortTaskWrapper at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375888: esp_restart_noos at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375294: call_start_cpu1 at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x40375976: panic_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5e5: esp_system_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40380e41: __assert_func at /Users/dheerajmahendiran/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x4200910a: CPPSPI::Spi::sendNBitData(int*, unsigned char) at /Users/dheerajmahendiran/esp/scanchain/components/cppspi/src/cppspi/cppspi.cpp:193 (discriminator 1)
+[0m
+[0;33m0x42008f1a: app_main at /Users/dheerajmahendiran/esp/scanchain/main/main.cpp:40 (discriminator 2)
+[0m
+[0;33m0x4204b8ff: main_task at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cd21: vPortTaskWrapper at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375888: esp_restart_noos at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375294: call_start_cpu1 at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x40375976: panic_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5e5: esp_system_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40380e41: __assert_func at /Users/dheerajmahendiran/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x4200910a: CPPSPI::Spi::sendNBitData(int*, unsigned char) at /Users/dheerajmahendiran/esp/scanchain/components/cppspi/src/cppspi/cppspi.cpp:193 (discriminator 1)
+[0m
+[0;33m0x42008f1a: app_main at /Users/dheerajmahendiran/esp/scanchain/main/main.cpp:40 (discriminator 2)
+[0m
+[0;33m0x4204b8ff: main_task at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cd21: vPortTaskWrapper at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375888: esp_restart_noos at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375294: call_start_cpu1 at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x40375976: panic_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5e5: esp_system_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40380e41: __assert_func at /Users/dheerajmahendiran/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x4200910a: CPPSPI::Spi::sendNBitData(int*, unsigned char) at /Users/dheerajmahendiran/esp/scanchain/components/cppspi/src/cppspi/cppspi.cpp:193 (discriminator 1)
+[0m
+[0;33m0x42008f1a: app_main at /Users/dheerajmahendiran/esp/scanchain/main/main.cpp:40 (discriminator 2)
+[0m
+[0;33m0x4204b8ff: main_task at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cd21: vPortTaskWrapper at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375888: esp_restart_noos at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375294: call_start_cpu1 at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x40375976: panic_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5e5: esp_system_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40380e41: __assert_func at /Users/dheerajmahendiran/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x4200910a: CPPSPI::Spi::sendNBitData(int*, unsigned char) at /Users/dheerajmahendiran/esp/scanchain/components/cppspi/src/cppspi/cppspi.cpp:193 (discriminator 1)
+[0m
+[0;33m0x42008f1a: app_main at /Users/dheerajmahendiran/esp/scanchain/main/main.cpp:40 (discriminator 2)
+[0m
+[0;33m0x4204b8ff: main_task at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cd21: vPortTaskWrapper at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375888: esp_restart_noos at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375294: call_start_cpu1 at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x40375976: panic_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5e5: esp_system_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40380e41: __assert_func at /Users/dheerajmahendiran/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x4200910a: CPPSPI::Spi::sendNBitData(int*, unsigned char) at /Users/dheerajmahendiran/esp/scanchain/components/cppspi/src/cppspi/cppspi.cpp:193 (discriminator 1)
+[0m
+[0;33m0x42008f1a: app_main at /Users/dheerajmahendiran/esp/scanchain/main/main.cpp:40 (discriminator 2)
+[0m
+[0;33m0x4204b8ff: main_task at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cd21: vPortTaskWrapper at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375888: esp_restart_noos at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375294: call_start_cpu1 at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x40375976: panic_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5e5: esp_system_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40380e41: __assert_func at /Users/dheerajmahendiran/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x4200910a: CPPSPI::Spi::sendNBitData(int*, unsigned char) at /Users/dheerajmahendiran/esp/scanchain/components/cppspi/src/cppspi/cppspi.cpp:193 (discriminator 1)
+[0m
+[0;33m0x42008f1a: app_main at /Users/dheerajmahendiran/esp/scanchain/main/main.cpp:40 (discriminator 2)
+[0m
+[0;33m0x4204b8ff: main_task at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cd21: vPortTaskWrapper at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375888: esp_restart_noos at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375294: call_start_cpu1 at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x40375976: panic_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5e5: esp_system_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40380e41: __assert_func at /Users/dheerajmahendiran/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x4200910a: CPPSPI::Spi::sendNBitData(int*, unsigned char) at /Users/dheerajmahendiran/esp/scanchain/components/cppspi/src/cppspi/cppspi.cpp:193 (discriminator 1)
+[0m
+[0;33m0x42008f1a: app_main at /Users/dheerajmahendiran/esp/scanchain/main/main.cpp:40 (discriminator 2)
+[0m
+[0;33m0x4204b8ff: main_task at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cd21: vPortTaskWrapper at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375888: esp_restart_noos at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375294: call_start_cpu1 at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x40375976: panic_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5e5: esp_system_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40380e41: __assert_func at /Users/dheerajmahendiran/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x4200910a: CPPSPI::Spi::sendNBitData(int*, unsigned char) at /Users/dheerajmahendiran/esp/scanchain/components/cppspi/src/cppspi/cppspi.cpp:193 (discriminator 1)
+[0m
+[0;33m0x42008f1a: app_main at /Users/dheerajmahendiran/esp/scanchain/main/main.cpp:40 (discriminator 2)
+[0m
+[0;33m0x4204b8ff: main_task at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cd21: vPortTaskWrapper at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375888: esp_restart_noos at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375294: call_start_cpu1 at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x40375976: panic_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5e5: esp_system_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40380e41: __assert_func at /Users/dheerajmahendiran/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x4200910a: CPPSPI::Spi::sendNBitData(int*, unsigned char) at /Users/dheerajmahendiran/esp/scanchain/components/cppspi/src/cppspi/cppspi.cpp:193 (discriminator 1)
+[0m
+[0;33m0x42008f1a: app_main at /Users/dheerajmahendiran/esp/scanchain/main/main.cpp:40 (discriminator 2)
+[0m
+[0;33m0x4204b8ff: main_task at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cd21: vPortTaskWrapper at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375888: esp_restart_noos at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375294: call_start_cpu1 at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x40375976: panic_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5e5: esp_system_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40380e41: __assert_func at /Users/dheerajmahendiran/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x4200910a: CPPSPI::Spi::sendNBitData(int*, unsigned char) at /Users/dheerajmahendiran/esp/scanchain/components/cppspi/src/cppspi/cppspi.cpp:193 (discriminator 1)
+[0m
+[0;33m0x42008f1a: app_main at /Users/dheerajmahendiran/esp/scanchain/main/main.cpp:40 (discriminator 2)
+[0m
+[0;33m0x4204b8ff: main_task at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cd21: vPortTaskWrapper at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375888: esp_restart_noos at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375294: call_start_cpu1 at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x40375976: panic_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5e5: esp_system_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40380e41: __assert_func at /Users/dheerajmahendiran/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x4200910a: CPPSPI::Spi::sendNBitData(int*, unsigned char) at /Users/dheerajmahendiran/esp/scanchain/components/cppspi/src/cppspi/cppspi.cpp:193 (discriminator 1)
+[0m
+[0;33m0x42008f1a: app_main at /Users/dheerajmahendiran/esp/scanchain/main/main.cpp:40 (discriminator 2)
+[0m
+[0;33m0x4204b8ff: main_task at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cd21: vPortTaskWrapper at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375888: esp_restart_noos at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375294: call_start_cpu1 at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x40375976: panic_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5e5: esp_system_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40380e41: __assert_func at /Users/dheerajmahendiran/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x4200910a: CPPSPI::Spi::sendNBitData(int*, unsigned char) at /Users/dheerajmahendiran/esp/scanchain/components/cppspi/src/cppspi/cppspi.cpp:193 (discriminator 1)
+[0m
+[0;33m0x42008f1a: app_main at /Users/dheerajmahendiran/esp/scanchain/main/main.cpp:40 (discriminator 2)
+[0m
+[0;33m0x4204b8ff: main_task at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cd21: vPortTaskWrapper at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375888: esp_restart_noos at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375294: call_start_cpu1 at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x40375976: panic_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5e5: esp_system_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40380e41: __assert_func at /Users/dheerajmahendiran/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x4200910a: CPPSPI::Spi::sendNBitData(int*, unsigned char) at /Users/dheerajmahendiran/esp/scanchain/components/cppspi/src/cppspi/cppspi.cpp:193 (discriminator 1)
+[0m
+[0;33m0x42008f1a: app_main at /Users/dheerajmahendiran/esp/scanchain/main/main.cpp:40 (discriminator 2)
+[0m
+[0;33m0x4204b8ff: main_task at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cd21: vPortTaskWrapper at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375888: esp_restart_noos at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375294: call_start_cpu1 at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x40375976: panic_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5e5: esp_system_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40380e41: __assert_func at /Users/dheerajmahendiran/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x4200910a: CPPSPI::Spi::sendNBitData(int*, unsigned char) at /Users/dheerajmahendiran/esp/scanchain/components/cppspi/src/cppspi/cppspi.cpp:193 (discriminator 1)
+[0m
+[0;33m0x42008f1a: app_main at /Users/dheerajmahendiran/esp/scanchain/main/main.cpp:40 (discriminator 2)
+[0m
+[0;33m0x4204b8ff: main_task at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cd21: vPortTaskWrapper at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375888: esp_restart_noos at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375294: call_start_cpu1 at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x40375976: panic_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5e5: esp_system_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40380e41: __assert_func at /Users/dheerajmahendiran/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x4200910a: CPPSPI::Spi::sendNBitData(int*, unsigned char) at /Users/dheerajmahendiran/esp/scanchain/components/cppspi/src/cppspi/cppspi.cpp:193 (discriminator 1)
+[0m
+[0;33m0x42008f1a: app_main at /Users/dheerajmahendiran/esp/scanchain/main/main.cpp:40 (discriminator 2)
+[0m
+[0;33m0x4204b8ff: main_task at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cd21: vPortTaskWrapper at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375888: esp_restart_noos at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375294: call_start_cpu1 at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x40375976: panic_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5e5: esp_system_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40380e41: __assert_func at /Users/dheerajmahendiran/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x4200910a: CPPSPI::Spi::sendNBitData(int*, unsigned char) at /Users/dheerajmahendiran/esp/scanchain/components/cppspi/src/cppspi/cppspi.cpp:193 (discriminator 1)
+[0m
+[0;33m0x42008f1a: app_main at /Users/dheerajmahendiran/esp/scanchain/main/main.cpp:40 (discriminator 2)
+[0m
+[0;33m0x4204b8ff: main_task at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cd21: vPortTaskWrapper at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375888: esp_restart_noos at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375294: call_start_cpu1 at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x40375976: panic_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5e5: esp_system_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40380e41: __assert_func at /Users/dheerajmahendiran/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x4200910a: CPPSPI::Spi::sendNBitData(int*, unsigned char) at /Users/dheerajmahendiran/esp/scanchain/components/cppspi/src/cppspi/cppspi.cpp:193 (discriminator 1)
+[0m
+[0;33m0x42008f1a: app_main at /Users/dheerajmahendiran/esp/scanchain/main/main.cpp:40 (discriminator 2)
+[0m
+[0;33m0x4204b8ff: main_task at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cd21: vPortTaskWrapper at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375888: esp_restart_noos at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375294: call_start_cpu1 at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x40375976: panic_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5e5: esp_system_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40380e41: __assert_func at /Users/dheerajmahendiran/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x4200910a: CPPSPI::Spi::sendNBitData(int*, unsigned char) at /Users/dheerajmahendiran/esp/scanchain/components/cppspi/src/cppspi/cppspi.cpp:193 (discriminator 1)
+[0m
+[0;33m0x42008f1a: app_main at /Users/dheerajmahendiran/esp/scanchain/main/main.cpp:40 (discriminator 2)
+[0m
+[0;33m0x4204b8ff: main_task at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cd21: vPortTaskWrapper at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375888: esp_restart_noos at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375294: call_start_cpu1 at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x40375976: panic_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5e5: esp_system_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40380e41: __assert_func at /Users/dheerajmahendiran/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x4200910a: CPPSPI::Spi::sendNBitData(int*, unsigned char) at /Users/dheerajmahendiran/esp/scanchain/components/cppspi/src/cppspi/cppspi.cpp:193 (discriminator 1)
+[0m
+[0;33m0x42008f1a: app_main at /Users/dheerajmahendiran/esp/scanchain/main/main.cpp:40 (discriminator 2)
+[0m
+[0;33m0x4204b8ff: main_task at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cd21: vPortTaskWrapper at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375888: esp_restart_noos at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375294: call_start_cpu1 at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x40375976: panic_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5e5: esp_system_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40380e41: __assert_func at /Users/dheerajmahendiran/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x4200910a: CPPSPI::Spi::sendNBitData(int*, unsigned char) at /Users/dheerajmahendiran/esp/scanchain/components/cppspi/src/cppspi/cppspi.cpp:193 (discriminator 1)
+[0m
+[0;33m0x42008f1a: app_main at /Users/dheerajmahendiran/esp/scanchain/main/main.cpp:40 (discriminator 2)
+[0m
+[0;33m0x4204b8ff: main_task at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cd21: vPortTaskWrapper at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375888: esp_restart_noos at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375294: call_start_cpu1 at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x40375976: panic_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5e5: esp_system_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40380e41: __assert_func at /Users/dheerajmahendiran/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x4200910a: CPPSPI::Spi::sendNBitData(int*, unsigned char) at /Users/dheerajmahendiran/esp/scanchain/components/cppspi/src/cppspi/cppspi.cpp:193 (discriminator 1)
+[0m
+[0;33m0x42008f1a: app_main at /Users/dheerajmahendiran/esp/scanchain/main/main.cpp:40 (discriminator 2)
+[0m
+[0;33m0x4204b8ff: main_task at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cd21: vPortTaskWrapper at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375888: esp_restart_noos at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375294: call_start_cpu1 at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x40375976: panic_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5e5: esp_system_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40380e41: __assert_func at /Users/dheerajmahendiran/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x4200910a: CPPSPI::Spi::sendNBitData(int*, unsigned char) at /Users/dheerajmahendiran/esp/scanchain/components/cppspi/src/cppspi/cppspi.cpp:193 (discriminator 1)
+[0m
+[0;33m0x42008f1a: app_main at /Users/dheerajmahendiran/esp/scanchain/main/main.cpp:40 (discriminator 2)
+[0m
+[0;33m0x4204b8ff: main_task at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cd21: vPortTaskWrapper at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375888: esp_restart_noos at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375294: call_start_cpu1 at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x40375976: panic_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5e5: esp_system_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40380e41: __assert_func at /Users/dheerajmahendiran/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x4200910a: CPPSPI::Spi::sendNBitData(int*, unsigned char) at /Users/dheerajmahendiran/esp/scanchain/components/cppspi/src/cppspi/cppspi.cpp:193 (discriminator 1)
+[0m
+[0;33m0x42008f1a: app_main at /Users/dheerajmahendiran/esp/scanchain/main/main.cpp:40 (discriminator 2)
+[0m
+[0;33m0x4204b8ff: main_task at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cd21: vPortTaskWrapper at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375888: esp_restart_noos at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375294: call_start_cpu1 at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x40375976: panic_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5e5: esp_system_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40380e41: __assert_func at /Users/dheerajmahendiran/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x4200910a: CPPSPI::Spi::sendNBitData(int*, unsigned char) at /Users/dheerajmahendiran/esp/scanchain/components/cppspi/src/cppspi/cppspi.cpp:193 (discriminator 1)
+[0m
+[0;33m0x42008f1a: app_main at /Users/dheerajmahendiran/esp/scanchain/main/main.cpp:40 (discriminator 2)
+[0m
+[0;33m0x4204b8ff: main_task at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cd21: vPortTaskWrapper at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375888: esp_restart_noos at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375294: call_start_cpu1 at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x40375976: panic_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5e5: esp_system_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40380e41: __assert_func at /Users/dheerajmahendiran/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x4200910a: CPPSPI::Spi::sendNBitData(int*, unsigned char) at /Users/dheerajmahendiran/esp/scanchain/components/cppspi/src/cppspi/cppspi.cpp:193 (discriminator 1)
+[0m
+[0;33m0x42008f1a: app_main at /Users/dheerajmahendiran/esp/scanchain/main/main.cpp:40 (discriminator 2)
+[0m
+[0;33m0x4204b8ff: main_task at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cd21: vPortTaskWrapper at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375888: esp_restart_noos at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375294: call_start_cpu1 at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x40375976: panic_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5e5: esp_system_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40380e41: __assert_func at /Users/dheerajmahendiran/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x4200910a: CPPSPI::Spi::sendNBitData(int*, unsigned char) at /Users/dheerajmahendiran/esp/scanchain/components/cppspi/src/cppspi/cppspi.cpp:193 (discriminator 1)
+[0m
+[0;33m0x42008f1a: app_main at /Users/dheerajmahendiran/esp/scanchain/main/main.cpp:40 (discriminator 2)
+[0m
+[0;33m0x4204b8ff: main_task at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cd21: vPortTaskWrapper at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375888: esp_restart_noos at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375294: call_start_cpu1 at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x40375976: panic_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5e5: esp_system_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40380e41: __assert_func at /Users/dheerajmahendiran/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x4200910a: CPPSPI::Spi::sendNBitData(int*, unsigned char) at /Users/dheerajmahendiran/esp/scanchain/components/cppspi/src/cppspi/cppspi.cpp:193 (discriminator 1)
+[0m
+[0;33m0x42008f1a: app_main at /Users/dheerajmahendiran/esp/scanchain/main/main.cpp:40 (discriminator 2)
+[0m
+[0;33m0x4204b8ff: main_task at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cd21: vPortTaskWrapper at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375888: esp_restart_noos at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375294: call_start_cpu1 at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x40375976: panic_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5e5: esp_system_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40380e41: __assert_func at /Users/dheerajmahendiran/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x4200910a: CPPSPI::Spi::sendNBitData(int*, unsigned char) at /Users/dheerajmahendiran/esp/scanchain/components/cppspi/src/cppspi/cppspi.cpp:193 (discriminator 1)
+[0m
+[0;33m0x42008f1a: app_main at /Users/dheerajmahendiran/esp/scanchain/main/main.cpp:40 (discriminator 2)
+[0m
+[0;33m0x4204b8ff: main_task at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cd21: vPortTaskWrapper at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375888: esp_restart_noos at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375294: call_start_cpu1 at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x40375976: panic_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5e5: esp_system_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40380e41: __assert_func at /Users/dheerajmahendiran/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x4200910a: CPPSPI::Spi::sendNBitData(int*, unsigned char) at /Users/dheerajmahendiran/esp/scanchain/components/cppspi/src/cppspi/cppspi.cpp:193 (discriminator 1)
+[0m
+[0;33m0x42008f1a: app_main at /Users/dheerajmahendiran/esp/scanchain/main/main.cpp:40 (discriminator 2)
+[0m
+[0;33m0x4204b8ff: main_task at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cd21: vPortTaskWrapper at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375888: esp_restart_noos at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375294: call_start_cpu1 at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x40375976: panic_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5e5: esp_system_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40380e41: __assert_func at /Users/dheerajmahendiran/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x4200910a: CPPSPI::Spi::sendNBitData(int*, unsigned char) at /Users/dheerajmahendiran/esp/scanchain/components/cppspi/src/cppspi/cppspi.cpp:193 (discriminator 1)
+[0m
+[0;33m0x42008f1a: app_main at /Users/dheerajmahendiran/esp/scanchain/main/main.cpp:40 (discriminator 2)
+[0m
+[0;33m0x4204b8ff: main_task at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cd21: vPortTaskWrapper at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375888: esp_restart_noos at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375294: call_start_cpu1 at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x40375976: panic_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5e5: esp_system_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40380e41: __assert_func at /Users/dheerajmahendiran/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x4200910a: CPPSPI::Spi::sendNBitData(int*, unsigned char) at /Users/dheerajmahendiran/esp/scanchain/components/cppspi/src/cppspi/cppspi.cpp:193 (discriminator 1)
+[0m
+[0;33m0x42008f1a: app_main at /Users/dheerajmahendiran/esp/scanchain/main/main.cpp:40 (discriminator 2)
+[0m
+[0;33m0x4204b8ff: main_task at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cd21: vPortTaskWrapper at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375888: esp_restart_noos at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375294: call_start_cpu1 at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x40375976: panic_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5e5: esp_system_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40380e41: __assert_func at /Users/dheerajmahendiran/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x4200910a: CPPSPI::Spi::sendNBitData(int*, unsigned char) at /Users/dheerajmahendiran/esp/scanchain/components/cppspi/src/cppspi/cppspi.cpp:193 (discriminator 1)
+[0m
+[0;33m0x42008f1a: app_main at /Users/dheerajmahendiran/esp/scanchain/main/main.cpp:40 (discriminator 2)
+[0m
+[0;33m0x4204b8ff: main_task at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cd21: vPortTaskWrapper at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375888: esp_restart_noos at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375294: call_start_cpu1 at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x40375976: panic_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5e5: esp_system_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40380e41: __assert_func at /Users/dheerajmahendiran/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x4200910a: CPPSPI::Spi::sendNBitData(int*, unsigned char) at /Users/dheerajmahendiran/esp/scanchain/components/cppspi/src/cppspi/cppspi.cpp:193 (discriminator 1)
+[0m
+[0;33m0x42008f1a: app_main at /Users/dheerajmahendiran/esp/scanchain/main/main.cpp:40 (discriminator 2)
+[0m
+[0;33m0x4204b8ff: main_task at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cd21: vPortTaskWrapper at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375888: esp_restart_noos at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375294: call_start_cpu1 at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x40375976: panic_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5e5: esp_system_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40380e41: __assert_func at /Users/dheerajmahendiran/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x4200910a: CPPSPI::Spi::sendNBitData(int*, unsigned char) at /Users/dheerajmahendiran/esp/scanchain/components/cppspi/src/cppspi/cppspi.cpp:193 (discriminator 1)
+[0m
+[0;33m0x42008f1a: app_main at /Users/dheerajmahendiran/esp/scanchain/main/main.cpp:40 (discriminator 2)
+[0m
+[0;33m0x4204b8ff: main_task at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cd21: vPortTaskWrapper at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375888: esp_restart_noos at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375294: call_start_cpu1 at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x40375976: panic_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5e5: esp_system_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40380e41: __assert_func at /Users/dheerajmahendiran/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x4200910a: CPPSPI::Spi::sendNBitData(int*, unsigned char) at /Users/dheerajmahendiran/esp/scanchain/components/cppspi/src/cppspi/cppspi.cpp:193 (discriminator 1)
+[0m
+[0;33m0x42008f1a: app_main at /Users/dheerajmahendiran/esp/scanchain/main/main.cpp:40 (discriminator 2)
+[0m
+[0;33m0x4204b8ff: main_task at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cd21: vPortTaskWrapper at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375888: esp_restart_noos at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375294: call_start_cpu1 at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x40375976: panic_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5e5: esp_system_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40380e41: __assert_func at /Users/dheerajmahendiran/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x4200910a: CPPSPI::Spi::sendNBitData(int*, unsigned char) at /Users/dheerajmahendiran/esp/scanchain/components/cppspi/src/cppspi/cppspi.cpp:193 (discriminator 1)
+[0m
+[0;33m0x42008f1a: app_main at /Users/dheerajmahendiran/esp/scanchain/main/main.cpp:40 (discriminator 2)
+[0m
+[0;33m0x4204b8ff: main_task at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cd21: vPortTaskWrapper at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375888: esp_restart_noos at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375294: call_start_cpu1 at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x40375976: panic_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5e5: esp_system_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40380e41: __assert_func at /Users/dheerajmahendiran/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x4200910a: CPPSPI::Spi::sendNBitData(int*, unsigned char) at /Users/dheerajmahendiran/esp/scanchain/components/cppspi/src/cppspi/cppspi.cpp:193 (discriminator 1)
+[0m
+[0;33m0x42008f1a: app_main at /Users/dheerajmahendiran/esp/scanchain/main/main.cpp:40 (discriminator 2)
+[0m
+[0;33m0x4204b8ff: main_task at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cd21: vPortTaskWrapper at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375888: esp_restart_noos at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375294: call_start_cpu1 at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x40375976: panic_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5e5: esp_system_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40380e41: __assert_func at /Users/dheerajmahendiran/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x4200910a: CPPSPI::Spi::sendNBitData(int*, unsigned char) at /Users/dheerajmahendiran/esp/scanchain/components/cppspi/src/cppspi/cppspi.cpp:193 (discriminator 1)
+[0m
+[0;33m0x42008f1a: app_main at /Users/dheerajmahendiran/esp/scanchain/main/main.cpp:40 (discriminator 2)
+[0m
+[0;33m0x4204b8ff: main_task at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cd21: vPortTaskWrapper at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375888: esp_restart_noos at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375294: call_start_cpu1 at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x40375976: panic_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5e5: esp_system_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40380e41: __assert_func at /Users/dheerajmahendiran/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x4200910a: CPPSPI::Spi::sendNBitData(int*, unsigned char) at /Users/dheerajmahendiran/esp/scanchain/components/cppspi/src/cppspi/cppspi.cpp:193 (discriminator 1)
+[0m
+[0;33m0x42008f1a: app_main at /Users/dheerajmahendiran/esp/scanchain/main/main.cpp:40 (discriminator 2)
+[0m
+[0;33m0x4204b8ff: main_task at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cd21: vPortTaskWrapper at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375888: esp_restart_noos at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375294: call_start_cpu1 at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x40375976: panic_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5e5: esp_system_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40380e41: __assert_func at /Users/dheerajmahendiran/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x4200910a: CPPSPI::Spi::sendNBitData(int*, unsigned char) at /Users/dheerajmahendiran/esp/scanchain/components/cppspi/src/cppspi/cppspi.cpp:193 (discriminator 1)
+[0m
+[0;33m0x42008f1a: app_main at /Users/dheerajmahendiran/esp/scanchain/main/main.cpp:40 (discriminator 2)
+[0m
+[0;33m0x4204b8ff: main_task at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cd21: vPortTaskWrapper at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375888: esp_restart_noos at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375294: call_start_cpu1 at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x40375976: panic_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5e5: esp_system_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40380e41: __assert_func at /Users/dheerajmahendiran/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x4200910a: CPPSPI::Spi::sendNBitData(int*, unsigned char) at /Users/dheerajmahendiran/esp/scanchain/components/cppspi/src/cppspi/cppspi.cpp:193 (discriminator 1)
+[0m
+[0;33m0x42008f1a: app_main at /Users/dheerajmahendiran/esp/scanchain/main/main.cpp:40 (discriminator 2)
+[0m
+[0;33m0x4204b8ff: main_task at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cd21: vPortTaskWrapper at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375888: esp_restart_noos at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375294: call_start_cpu1 at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x40375976: panic_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5e5: esp_system_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40380e41: __assert_func at /Users/dheerajmahendiran/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x4200910a: CPPSPI::Spi::sendNBitData(int*, unsigned char) at /Users/dheerajmahendiran/esp/scanchain/components/cppspi/src/cppspi/cppspi.cpp:193 (discriminator 1)
+[0m
+[0;33m0x42008f1a: app_main at /Users/dheerajmahendiran/esp/scanchain/main/main.cpp:40 (discriminator 2)
+[0m
+[0;33m0x4204b8ff: main_task at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cd21: vPortTaskWrapper at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375888: esp_restart_noos at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375294: call_start_cpu1 at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x40375976: panic_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5e5: esp_system_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40380e41: __assert_func at /Users/dheerajmahendiran/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x4200910a: CPPSPI::Spi::sendNBitData(int*, unsigned char) at /Users/dheerajmahendiran/esp/scanchain/components/cppspi/src/cppspi/cppspi.cpp:193 (discriminator 1)
+[0m
+[0;33m0x42008f1a: app_main at /Users/dheerajmahendiran/esp/scanchain/main/main.cpp:40 (discriminator 2)
+[0m
+[0;33m0x4204b8ff: main_task at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cd21: vPortTaskWrapper at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375888: esp_restart_noos at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375294: call_start_cpu1 at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x40375976: panic_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5e5: esp_system_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40380e41: __assert_func at /Users/dheerajmahendiran/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x4200910a: CPPSPI::Spi::sendNBitData(int*, unsigned char) at /Users/dheerajmahendiran/esp/scanchain/components/cppspi/src/cppspi/cppspi.cpp:193 (discriminator 1)
+[0m
+[0;33m0x42008f1a: app_main at /Users/dheerajmahendiran/esp/scanchain/main/main.cpp:40 (discriminator 2)
+[0m
+[0;33m0x4204b8ff: main_task at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cd21: vPortTaskWrapper at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375888: esp_restart_noos at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375294: call_start_cpu1 at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x40375976: panic_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5e5: esp_system_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40380e41: __assert_func at /Users/dheerajmahendiran/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x4200910a: CPPSPI::Spi::sendNBitData(int*, unsigned char) at /Users/dheerajmahendiran/esp/scanchain/components/cppspi/src/cppspi/cppspi.cpp:193 (discriminator 1)
+[0m
+[0;33m0x42008f1a: app_main at /Users/dheerajmahendiran/esp/scanchain/main/main.cpp:40 (discriminator 2)
+[0m
+[0;33m0x4204b8ff: main_task at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cd21: vPortTaskWrapper at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375888: esp_restart_noos at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375294: call_start_cpu1 at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x40375976: panic_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5e5: esp_system_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40380e41: __assert_func at /Users/dheerajmahendiran/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x4200910a: CPPSPI::Spi::sendNBitData(int*, unsigned char) at /Users/dheerajmahendiran/esp/scanchain/components/cppspi/src/cppspi/cppspi.cpp:193 (discriminator 1)
+[0m
+[0;33m0x42008f1a: app_main at /Users/dheerajmahendiran/esp/scanchain/main/main.cpp:40 (discriminator 2)
+[0m
+[0;33m0x4204b8ff: main_task at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cd21: vPortTaskWrapper at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375888: esp_restart_noos at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375294: call_start_cpu1 at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x40375976: panic_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5e5: esp_system_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40380e41: __assert_func at /Users/dheerajmahendiran/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x4200910a: CPPSPI::Spi::sendNBitData(int*, unsigned char) at /Users/dheerajmahendiran/esp/scanchain/components/cppspi/src/cppspi/cppspi.cpp:193 (discriminator 1)
+[0m
+[0;33m0x42008f1a: app_main at /Users/dheerajmahendiran/esp/scanchain/main/main.cpp:40 (discriminator 2)
+[0m
+[0;33m0x4204b8ff: main_task at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cd21: vPortTaskWrapper at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375888: esp_restart_noos at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375294: call_start_cpu1 at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x40375976: panic_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5e5: esp_system_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40380e41: __assert_func at /Users/dheerajmahendiran/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x4200910a: CPPSPI::Spi::sendNBitData(int*, unsigned char) at /Users/dheerajmahendiran/esp/scanchain/components/cppspi/src/cppspi/cppspi.cpp:193 (discriminator 1)
+[0m
+[0;33m0x42008f1a: app_main at /Users/dheerajmahendiran/esp/scanchain/main/main.cpp:40 (discriminator 2)
+[0m
+[0;33m0x4204b8ff: main_task at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cd21: vPortTaskWrapper at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375888: esp_restart_noos at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375294: call_start_cpu1 at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x40375976: panic_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5e5: esp_system_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40380e41: __assert_func at /Users/dheerajmahendiran/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x4200910a: CPPSPI::Spi::sendNBitData(int*, unsigned char) at /Users/dheerajmahendiran/esp/scanchain/components/cppspi/src/cppspi/cppspi.cpp:193 (discriminator 1)
+[0m
+[0;33m0x42008f1a: app_main at /Users/dheerajmahendiran/esp/scanchain/main/main.cpp:40 (discriminator 2)
+[0m
+[0;33m0x4204b8ff: main_task at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cd21: vPortTaskWrapper at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375888: esp_restart_noos at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375294: call_start_cpu1 at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x40375976: panic_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5e5: esp_system_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40380e41: __assert_func at /Users/dheerajmahendiran/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x4200910a: CPPSPI::Spi::sendNBitData(int*, unsigned char) at /Users/dheerajmahendiran/esp/scanchain/components/cppspi/src/cppspi/cppspi.cpp:193 (discriminator 1)
+[0m
+[0;33m0x42008f1a: app_main at /Users/dheerajmahendiran/esp/scanchain/main/main.cpp:40 (discriminator 2)
+[0m
+[0;33m0x4204b8ff: main_task at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cd21: vPortTaskWrapper at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375888: esp_restart_noos at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375294: call_start_cpu1 at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x40375976: panic_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5e5: esp_system_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40380e41: __assert_func at /Users/dheerajmahendiran/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x4200910a: CPPSPI::Spi::sendNBitData(int*, unsigned char) at /Users/dheerajmahendiran/esp/scanchain/components/cppspi/src/cppspi/cppspi.cpp:193 (discriminator 1)
+[0m
+[0;33m0x42008f1a: app_main at /Users/dheerajmahendiran/esp/scanchain/main/main.cpp:40 (discriminator 2)
+[0m
+[0;33m0x4204b8ff: main_task at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cd21: vPortTaskWrapper at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375888: esp_restart_noos at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375294: call_start_cpu1 at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x40375976: panic_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5e5: esp_system_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40380e41: __assert_func at /Users/dheerajmahendiran/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x4200910a: CPPSPI::Spi::sendNBitData(int*, unsigned char) at /Users/dheerajmahendiran/esp/scanchain/components/cppspi/src/cppspi/cppspi.cpp:193 (discriminator 1)
+[0m
+[0;33m0x42008f1a: app_main at /Users/dheerajmahendiran/esp/scanchain/main/main.cpp:40 (discriminator 2)
+[0m
+[0;33m0x4204b8ff: main_task at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cd21: vPortTaskWrapper at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375888: esp_restart_noos at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375294: call_start_cpu1 at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x40375976: panic_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5e5: esp_system_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40380e41: __assert_func at /Users/dheerajmahendiran/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x4200910a: CPPSPI::Spi::sendNBitData(int*, unsigned char) at /Users/dheerajmahendiran/esp/scanchain/components/cppspi/src/cppspi/cppspi.cpp:193 (discriminator 1)
+[0m
+[0;33m0x42008f1a: app_main at /Users/dheerajmahendiran/esp/scanchain/main/main.cpp:40 (discriminator 2)
+[0m
+[0;33m0x4204b8ff: main_task at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cd21: vPortTaskWrapper at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375888: esp_restart_noos at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375294: call_start_cpu1 at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x40375976: panic_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5e5: esp_system_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40380e41: __assert_func at /Users/dheerajmahendiran/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x4200910a: CPPSPI::Spi::sendNBitData(int*, unsigned char) at /Users/dheerajmahendiran/esp/scanchain/components/cppspi/src/cppspi/cppspi.cpp:193 (discriminator 1)
+[0m
+[0;33m0x42008f1a: app_main at /Users/dheerajmahendiran/esp/scanchain/main/main.cpp:40 (discriminator 2)
+[0m
+[0;33m0x4204b8ff: main_task at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cd21: vPortTaskWrapper at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375888: esp_restart_noos at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375294: call_start_cpu1 at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x40375976: panic_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5e5: esp_system_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40380e41: __assert_func at /Users/dheerajmahendiran/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x4200910a: CPPSPI::Spi::sendNBitData(int*, unsigned char) at /Users/dheerajmahendiran/esp/scanchain/components/cppspi/src/cppspi/cppspi.cpp:193 (discriminator 1)
+[0m
+[0;33m0x42008f1a: app_main at /Users/dheerajmahendiran/esp/scanchain/main/main.cpp:40 (discriminator 2)
+[0m
+[0;33m0x4204b8ff: main_task at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cd21: vPortTaskWrapper at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375888: esp_restart_noos at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375294: call_start_cpu1 at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x40375976: panic_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5e5: esp_system_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40380e41: __assert_func at /Users/dheerajmahendiran/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x4200910a: CPPSPI::Spi::sendNBitData(int*, unsigned char) at /Users/dheerajmahendiran/esp/scanchain/components/cppspi/src/cppspi/cppspi.cpp:193 (discriminator 1)
+[0m
+[0;33m0x42008f1a: app_main at /Users/dheerajmahendiran/esp/scanchain/main/main.cpp:40 (discriminator 2)
+[0m
+[0;33m0x4204b8ff: main_task at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cd21: vPortTaskWrapper at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375888: esp_restart_noos at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375294: call_start_cpu1 at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x40375976: panic_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5e5: esp_system_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40380e41: __assert_func at /Users/dheerajmahendiran/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x4200910a: CPPSPI::Spi::sendNBitData(int*, unsigned char) at /Users/dheerajmahendiran/esp/scanchain/components/cppspi/src/cppspi/cppspi.cpp:193 (discriminator 1)
+[0m
+[0;33m0x42008f1a: app_main at /Users/dheerajmahendiran/esp/scanchain/main/main.cpp:40 (discriminator 2)
+[0m
+[0;33m0x4204b8ff: main_task at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cd21: vPortTaskWrapper at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375888: esp_restart_noos at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375294: call_start_cpu1 at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x40375976: panic_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5e5: esp_system_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40380e41: __assert_func at /Users/dheerajmahendiran/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x4200910a: CPPSPI::Spi::sendNBitData(int*, unsigned char) at /Users/dheerajmahendiran/esp/scanchain/components/cppspi/src/cppspi/cppspi.cpp:193 (discriminator 1)
+[0m
+[0;33m0x42008f1a: app_main at /Users/dheerajmahendiran/esp/scanchain/main/main.cpp:40 (discriminator 2)
+[0m
+[0;33m0x4204b8ff: main_task at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cd21: vPortTaskWrapper at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375888: esp_restart_noos at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375294: call_start_cpu1 at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x40375976: panic_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5e5: esp_system_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40380e41: __assert_func at /Users/dheerajmahendiran/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x4200910a: CPPSPI::Spi::sendNBitData(int*, unsigned char) at /Users/dheerajmahendiran/esp/scanchain/components/cppspi/src/cppspi/cppspi.cpp:193 (discriminator 1)
+[0m
+[0;33m0x42008f1a: app_main at /Users/dheerajmahendiran/esp/scanchain/main/main.cpp:40 (discriminator 2)
+[0m
+[0;33m0x4204b8ff: main_task at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cd21: vPortTaskWrapper at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375888: esp_restart_noos at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375294: call_start_cpu1 at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x40375976: panic_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5e5: esp_system_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40380e41: __assert_func at /Users/dheerajmahendiran/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x4200910a: CPPSPI::Spi::sendNBitData(int*, unsigned char) at /Users/dheerajmahendiran/esp/scanchain/components/cppspi/src/cppspi/cppspi.cpp:193 (discriminator 1)
+[0m
+[0;33m0x42008f1a: app_main at /Users/dheerajmahendiran/esp/scanchain/main/main.cpp:40 (discriminator 2)
+[0m
+[0;33m0x4204b8ff: main_task at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cd21: vPortTaskWrapper at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375888: esp_restart_noos at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375294: call_start_cpu1 at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x40375976: panic_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5e5: esp_system_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40380e41: __assert_func at /Users/dheerajmahendiran/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x4200910a: CPPSPI::Spi::sendNBitData(int*, unsigned char) at /Users/dheerajmahendiran/esp/scanchain/components/cppspi/src/cppspi/cppspi.cpp:193 (discriminator 1)
+[0m
+[0;33m0x42008f1a: app_main at /Users/dheerajmahendiran/esp/scanchain/main/main.cpp:40 (discriminator 2)
+[0m
+[0;33m0x4204b8ff: main_task at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cd21: vPortTaskWrapper at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375888: esp_restart_noos at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375294: call_start_cpu1 at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x40375976: panic_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5e5: esp_system_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40380e41: __assert_func at /Users/dheerajmahendiran/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x4200910a: CPPSPI::Spi::sendNBitData(int*, unsigned char) at /Users/dheerajmahendiran/esp/scanchain/components/cppspi/src/cppspi/cppspi.cpp:193 (discriminator 1)
+[0m
+[0;33m0x42008f1a: app_main at /Users/dheerajmahendiran/esp/scanchain/main/main.cpp:40 (discriminator 2)
+[0m
+[0;33m0x4204b8ff: main_task at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cd21: vPortTaskWrapper at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375888: esp_restart_noos at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375294: call_start_cpu1 at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x40375976: panic_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5e5: esp_system_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40380e41: __assert_func at /Users/dheerajmahendiran/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x4200910a: CPPSPI::Spi::sendNBitData(int*, unsigned char) at /Users/dheerajmahendiran/esp/scanchain/components/cppspi/src/cppspi/cppspi.cpp:193 (discriminator 1)
+[0m
+[0;33m0x42008f1a: app_main at /Users/dheerajmahendiran/esp/scanchain/main/main.cpp:40 (discriminator 2)
+[0m
+[0;33m0x4204b8ff: main_task at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cd21: vPortTaskWrapper at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375888: esp_restart_noos at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375294: call_start_cpu1 at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x40375976: panic_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5e5: esp_system_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40380e41: __assert_func at /Users/dheerajmahendiran/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x4200910a: CPPSPI::Spi::sendNBitData(int*, unsigned char) at /Users/dheerajmahendiran/esp/scanchain/components/cppspi/src/cppspi/cppspi.cpp:193 (discriminator 1)
+[0m
+[0;33m0x42008f1a: app_main at /Users/dheerajmahendiran/esp/scanchain/main/main.cpp:40 (discriminator 2)
+[0m
+[0;33m0x4204b8ff: main_task at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cd21: vPortTaskWrapper at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375888: esp_restart_noos at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375294: call_start_cpu1 at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x40375976: panic_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5e5: esp_system_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40380e41: __assert_func at /Users/dheerajmahendiran/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x4200910a: CPPSPI::Spi::sendNBitData(int*, unsigned char) at /Users/dheerajmahendiran/esp/scanchain/components/cppspi/src/cppspi/cppspi.cpp:193 (discriminator 1)
+[0m
+[0;33m0x42008f1a: app_main at /Users/dheerajmahendiran/esp/scanchain/main/main.cpp:40 (discriminator 2)
+[0m
+[0;33m0x4204b8ff: main_task at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cd21: vPortTaskWrapper at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375888: esp_restart_noos at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375294: call_start_cpu1 at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x40375976: panic_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5e5: esp_system_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40380e41: __assert_func at /Users/dheerajmahendiran/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x4200910a: CPPSPI::Spi::sendNBitData(int*, unsigned char) at /Users/dheerajmahendiran/esp/scanchain/components/cppspi/src/cppspi/cppspi.cpp:193 (discriminator 1)
+[0m
+[0;33m0x42008f1a: app_main at /Users/dheerajmahendiran/esp/scanchain/main/main.cpp:40 (discriminator 2)
+[0m
+[0;33m0x4204b8ff: main_task at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cd21: vPortTaskWrapper at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375888: esp_restart_noos at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375294: call_start_cpu1 at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x40375976: panic_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5e5: esp_system_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40380e41: __assert_func at /Users/dheerajmahendiran/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x4200910a: CPPSPI::Spi::sendNBitData(int*, unsigned char) at /Users/dheerajmahendiran/esp/scanchain/components/cppspi/src/cppspi/cppspi.cpp:193 (discriminator 1)
+[0m
+[0;33m0x42008f1a: app_main at /Users/dheerajmahendiran/esp/scanchain/main/main.cpp:40 (discriminator 2)
+[0m
+[0;33m0x4204b8ff: main_task at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cd21: vPortTaskWrapper at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375888: esp_restart_noos at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375294: call_start_cpu1 at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x40375976: panic_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5e5: esp_system_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40380e41: __assert_func at /Users/dheerajmahendiran/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x4200910a: CPPSPI::Spi::sendNBitData(int*, unsigned char) at /Users/dheerajmahendiran/esp/scanchain/components/cppspi/src/cppspi/cppspi.cpp:193 (discriminator 1)
+[0m
+[0;33m0x42008f1a: app_main at /Users/dheerajmahendiran/esp/scanchain/main/main.cpp:40 (discriminator 2)
+[0m
+[0;33m0x4204b8ff: main_task at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cd21: vPortTaskWrapper at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375888: esp_restart_noos at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375294: call_start_cpu1 at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x40375976: panic_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5e5: esp_system_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40380e41: __assert_func at /Users/dheerajmahendiran/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x4200910a: CPPSPI::Spi::sendNBitData(int*, unsigned char) at /Users/dheerajmahendiran/esp/scanchain/components/cppspi/src/cppspi/cppspi.cpp:193 (discriminator 1)
+[0m
+[0;33m0x42008f1a: app_main at /Users/dheerajmahendiran/esp/scanchain/main/main.cpp:40 (discriminator 2)
+[0m
+[0;33m0x4204b8ff: main_task at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cd21: vPortTaskWrapper at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375888: esp_restart_noos at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375294: call_start_cpu1 at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x40375976: panic_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5e5: esp_system_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40380e41: __assert_func at /Users/dheerajmahendiran/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x4200910a: CPPSPI::Spi::sendNBitData(int*, unsigned char) at /Users/dheerajmahendiran/esp/scanchain/components/cppspi/src/cppspi/cppspi.cpp:193 (discriminator 1)
+[0m
+[0;33m0x42008f1a: app_main at /Users/dheerajmahendiran/esp/scanchain/main/main.cpp:40 (discriminator 2)
+[0m
+[0;33m0x4204b8ff: main_task at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cd21: vPortTaskWrapper at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375888: esp_restart_noos at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375294: call_start_cpu1 at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x40375976: panic_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5e5: esp_system_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40380e41: __assert_func at /Users/dheerajmahendiran/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x4200910a: CPPSPI::Spi::sendNBitData(int*, unsigned char) at /Users/dheerajmahendiran/esp/scanchain/components/cppspi/src/cppspi/cppspi.cpp:193 (discriminator 1)
+[0m
+[0;33m0x42008f1a: app_main at /Users/dheerajmahendiran/esp/scanchain/main/main.cpp:40 (discriminator 2)
+[0m
+[0;33m0x4204b8ff: main_task at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cd21: vPortTaskWrapper at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375888: esp_restart_noos at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375294: call_start_cpu1 at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x40375976: panic_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5e5: esp_system_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40380e41: __assert_func at /Users/dheerajmahendiran/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x4200910a: CPPSPI::Spi::sendNBitData(int*, unsigned char) at /Users/dheerajmahendiran/esp/scanchain/components/cppspi/src/cppspi/cppspi.cpp:193 (discriminator 1)
+[0m
+[0;33m0x42008f1a: app_main at /Users/dheerajmahendiran/esp/scanchain/main/main.cpp:40 (discriminator 2)
+[0m
+[0;33m0x4204b8ff: main_task at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cd21: vPortTaskWrapper at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375888: esp_restart_noos at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375294: call_start_cpu1 at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x40375976: panic_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5e5: esp_system_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40380e41: __assert_func at /Users/dheerajmahendiran/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x4200910a: CPPSPI::Spi::sendNBitData(int*, unsigned char) at /Users/dheerajmahendiran/esp/scanchain/components/cppspi/src/cppspi/cppspi.cpp:193 (discriminator 1)
+[0m
+[0;33m0x42008f1a: app_main at /Users/dheerajmahendiran/esp/scanchain/main/main.cpp:40 (discriminator 2)
+[0m
+[0;33m0x4204b8ff: main_task at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cd21: vPortTaskWrapper at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375888: esp_restart_noos at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375294: call_start_cpu1 at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x40375976: panic_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5e5: esp_system_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40380e41: __assert_func at /Users/dheerajmahendiran/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x4200910a: CPPSPI::Spi::sendNBitData(int*, unsigned char) at /Users/dheerajmahendiran/esp/scanchain/components/cppspi/src/cppspi/cppspi.cpp:193 (discriminator 1)
+[0m
+[0;33m0x42008f1a: app_main at /Users/dheerajmahendiran/esp/scanchain/main/main.cpp:40 (discriminator 2)
+[0m
+[0;33m0x4204b8ff: main_task at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cd21: vPortTaskWrapper at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375888: esp_restart_noos at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375294: call_start_cpu1 at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x40375976: panic_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5e5: esp_system_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40380e41: __assert_func at /Users/dheerajmahendiran/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x4200910a: CPPSPI::Spi::sendNBitData(int*, unsigned char) at /Users/dheerajmahendiran/esp/scanchain/components/cppspi/src/cppspi/cppspi.cpp:193 (discriminator 1)
+[0m
+[0;33m0x42008f1a: app_main at /Users/dheerajmahendiran/esp/scanchain/main/main.cpp:40 (discriminator 2)
+[0m
+[0;33m0x4204b8ff: main_task at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cd21: vPortTaskWrapper at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375888: esp_restart_noos at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375294: call_start_cpu1 at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x40375976: panic_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5e5: esp_system_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40380e41: __assert_func at /Users/dheerajmahendiran/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x4200910a: CPPSPI::Spi::sendNBitData(int*, unsigned char) at /Users/dheerajmahendiran/esp/scanchain/components/cppspi/src/cppspi/cppspi.cpp:193 (discriminator 1)
+[0m
+[0;33m0x42008f1a: app_main at /Users/dheerajmahendiran/esp/scanchain/main/main.cpp:40 (discriminator 2)
+[0m
+[0;33m0x4204b8ff: main_task at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cd21: vPortTaskWrapper at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375888: esp_restart_noos at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0;33m0x40375294: call_start_cpu1 at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x40375976: panic_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037a5e5: esp_system_abort at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40380e41: __assert_func at /Users/dheerajmahendiran/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x4200910a: CPPSPI::Spi::sendNBitData(int*, unsigned char) at /Users/dheerajmahendiran/esp/scanchain/components/cppspi/src/cppspi/cppspi.cpp:193 (discriminator 1)
+[0m
+[0;33m0x42008f1a: app_main at /Users/dheerajmahendiran/esp/scanchain/main/main.cpp:40 (discriminator 2)
+[0m
+[0;33m0x4204b8ff: main_task at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037cd21: vPortTaskWrapper at /Users/dheerajmahendiran/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375888: esp_restart_noos at /Users/dheerajmahendiran/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:158 (discriminator 1)
+[0m
+[0m

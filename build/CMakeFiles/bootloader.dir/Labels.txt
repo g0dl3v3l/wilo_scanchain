@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/Users/dheerajmahendiran/esp/scanchain/build/CMakeFiles/bootloader
+/Users/dheerajmahendiran/esp/scanchain/build/CMakeFiles/bootloader.rule
+/Users/dheerajmahendiran/esp/scanchain/build/CMakeFiles/bootloader-complete.rule
+/Users/dheerajmahendiran/esp/scanchain/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/Users/dheerajmahendiran/esp/scanchain/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/Users/dheerajmahendiran/esp/scanchain/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/Users/dheerajmahendiran/esp/scanchain/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/Users/dheerajmahendiran/esp/scanchain/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/Users/dheerajmahendiran/esp/scanchain/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/Users/dheerajmahendiran/esp/scanchain/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
